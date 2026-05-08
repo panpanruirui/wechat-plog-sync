@@ -12,7 +12,7 @@
 
 但群消息会慢慢沉掉，过几天就找不到了。所以写了这个工具：把群里的消息自动同步到 Obsidian 日记里，每天一篇 `YYYY-MM-DD自动爬取.md`，方便复盘。
 
-配合 Obsidian 日记整理 prompt，可以一键把当天的零散记录整理成结构化的日记。
+配合 [日记整理 prompt](prompts/日记整理-prompt.md)，可以把当天的零散记录一键整理成结构化的日记。
 
 **你也可以用它来同步任何微信群的消息到 Obsidian**——不限于个人群，工作群、兴趣群都可以。
 
@@ -67,10 +67,13 @@ python plog_sync.py
 
 ```
 wechat-plog-sync/
-├── plog_sync.py           # 同步脚本
-├── extract_aes_key.py     # 微信 AES 密钥提取器
-├── config.example.json    # 配置模板
-└── README.md
+├── plog_sync.py              # 同步脚本
+├── extract_aes_key.py        # 微信 AES 密钥提取器
+├── config.example.json       # 配置模板
+├── README.md
+└── prompts/
+    ├── 日记整理-prompt.md     # Obsidian 日记整理 prompt
+    └── 效果图/               # 使用效果截图
 ```
 
 ### 常见问题
@@ -126,6 +129,8 @@ I created a WeChat group called "日常plog" (daily plog) — just me in it. Thr
 
 This tool syncs those messages to Obsidian daily notes — one note per day (`YYYY-MM-DD-auto.md`), making it easy to review and reflect.
 
+Pair it with the [journaling prompt](prompts/日记整理-prompt.md) to organize scattered daily records into structured diary entries with AI.
+
 **You can use it to sync any WeChat group to Obsidian** — personal, work, hobby groups, anything.
 
 ### Features
@@ -153,10 +158,13 @@ python plog_sync.py
 
 ```
 wechat-plog-sync/
-├── plog_sync.py           # Main sync script
-├── extract_aes_key.py     # AES key extractor (memory scanner)
-├── config.example.json    # Configuration template
-└── README.md
+├── plog_sync.py              # Main sync script
+├── extract_aes_key.py        # AES key extractor (memory scanner)
+├── config.example.json       # Configuration template
+├── README.md
+└── prompts/
+    ├── 日记整理-prompt.md     # Obsidian journaling prompt
+    └── 效果图/               # Screenshots
 ```
 
 ### FAQ
