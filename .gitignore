@@ -1,0 +1,20 @@
+# 配置（包含个人密钥）
+config.json
+
+# 同步状态（自动生成）
+state.json
+
+# 运行时日志
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 第三方源码（用户自行安装）
+wechat-cli-src/
+
+# 测试残留
+test_*.py
+test_*.txt

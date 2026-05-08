@@ -1,0 +1,11 @@
+{
+  "obsidian_path": "C:/path/to/obsidian/vault/日记入口",
+  "attachment_dir": "C:/path/to/obsidian/vault/日记入口/附件",
+  "group_name": "你的群名称",
+  "title_suffix": "自动爬取",
+  "schedule_time": "23:00",
+  "overlap_minutes": 5,
+  "image_aes_key": "",
+  "image_xor_key": 158,
+  "wechat_attach_dir": "C:/path/to/WeChat Files/xwechat_files"
+}
